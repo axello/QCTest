@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
-        <plugIn identifier="com.apple.QuartzComposerIBPlugin" version="13771"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -710,22 +709,7 @@
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <subviews>
-                            <qcView translatesAutoresizingMaskIntoConstraints="NO" id="Cka-Ly-d0z">
-                                <rect key="frame" x="20" y="20" width="440" height="230"/>
-                                <color key="eraseColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </qcView>
-                        </subviews>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="Cka-Ly-d0z" secondAttribute="bottom" constant="20" id="BHQ-EO-wQA"/>
-                            <constraint firstItem="Cka-Ly-d0z" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="O1c-LR-OpO"/>
-                            <constraint firstAttribute="trailing" secondItem="Cka-Ly-d0z" secondAttribute="trailing" constant="20" id="W5N-X5-g4x"/>
-                            <constraint firstItem="Cka-Ly-d0z" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="aj6-xU-BPR"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="quartzView" destination="Cka-Ly-d0z" id="8p8-jy-msY"/>
-                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
