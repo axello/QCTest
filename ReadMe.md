@@ -1,4 +1,4 @@
-#Summary:
+# Summary:
 I have a several years old Mac application with a simple Quartz Composer about animation view. When I wanted to recompile the app in Xcode 9.2 I got the following error:
 Main.storyboard: error: The document "Main.storyboard" could not be opened. The operation couldn’t be completed. (com.apple.InterfaceBuilder error -1.)
 
@@ -7,13 +7,13 @@ On the master branch there is a QCView and it does not compile, on the noquartz 
 
 On both branches the view is shown correctly in Interface Builder.
 
-##Steps to Reproduce:
+## Steps to Reproduce:
 Compile master branch
 
-##Expected Results:
+## Expected Results:
 Should compile.
 
-##Actual Results:
+## Actual Results:
 ```Compilation returns the error:
 "CompileStoryboard QC-Test/Base.lproj/Main.storyboard
     cd /Users/axel/Desktop/QC-Test
@@ -27,8 +27,8 @@ Should compile.
 ```
 Needless to say, the console (system.log) does not show anything out of the ordinary.
 
-##Version/Build:
+## Version/Build:
 Xcode Version 9.2 (9C40b)
 
-##Configuration:
+## Configuration:
 Mac OS X 10.12.6
