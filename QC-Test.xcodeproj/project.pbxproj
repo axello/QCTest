@@ -12,6 +12,7 @@
 		77C644752004BA8D0005A606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77C644742004BA8D0005A606 /* Assets.xcassets */; };
 		77C644782004BA8D0005A606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77C644762004BA8D0005A606 /* Main.storyboard */; };
 		77C644812004BAE00005A606 /* Telan Cube Replicator.qtz in Resources */ = {isa = PBXBuildFile; fileRef = 77C644802004BADF0005A606 /* Telan Cube Replicator.qtz */; };
+		77C644842004C2BB0005A606 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C644832004C2BB0005A606 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		77C644792004BA8D0005A606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77C6447A2004BA8D0005A606 /* QC_Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QC_Test.entitlements; sourceTree = "<group>"; };
 		77C644802004BADF0005A606 /* Telan Cube Replicator.qtz */ = {isa = PBXFileReference; lastKnownFileType = "video.quartz-composer"; path = "Telan Cube Replicator.qtz"; sourceTree = "<group>"; };
+		77C644832004C2BB0005A606 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C644842004C2BB0005A606 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +44,7 @@
 			children = (
 				77C6446F2004BA8D0005A606 /* QC-Test */,
 				77C6446E2004BA8D0005A606 /* Products */,
+				77C644822004C2BB0005A606 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +68,14 @@
 				77C6447A2004BA8D0005A606 /* QC_Test.entitlements */,
 			);
 			path = "QC-Test";
+			sourceTree = "<group>";
+		};
+		77C644822004C2BB0005A606 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C644832004C2BB0005A606 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
